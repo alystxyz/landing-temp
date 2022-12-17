@@ -41,7 +41,7 @@ const HeroSection = () => {
                                          offset={-80}
                                          onClick={() => window.location.href = "https://gleam.io/Ltgua/wafflenft-whitelist-competition"}
                                          >
-                         Go to Social {hover ? <ArrowForward /> : <ArrowRight />}
+                         Follow us for updates {hover ? <ArrowForward /> : <ArrowRight />}
                      </Button>
                  </HeroBtnWrapper>
              </HeroContent>

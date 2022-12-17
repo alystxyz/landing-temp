@@ -6,14 +6,14 @@ export const homeObjOne = {
     topLine: 'cat.alyst (Catalyst)',
     headLine: 'Power up your campaign with our crowdfunding platform',
     description: 'A crowdfunding platform where artist, organisation, projects, can create campaigns to raise funds akin to the likes of Kickstarter/GoFundMe/Indiegogo',
-    buttonLabel: 'Go to App',
+    buttonLabel: 'Follow updates',
     imgStart: false,
     img: require('../../images/AlystSVG1.svg').default,
     alt: 'Car',
     dark: true,
     primary: true,
     darkText: false,
-    buttonTo: 'https://discord.gg/96QBSE4j59',
+    buttonTo: 'https://twitter.com/alyst_xyz',
 }
 
 
