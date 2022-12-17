@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
-import Video from '../../images/background.png'
+import Video from '../../images/0x-bg.png'
 import { Button } from '../ButtonElement'
 
 
@@ -19,11 +19,11 @@ const HeroSection = () => {
                  <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
              </HeroBg>
              <HeroContent>
-                 <HeroH1>Revolutionising NFTs</HeroH1>
+                 <HeroH1></HeroH1>
                  <HeroP>
-                 Community will always be at our heart here at WaffleNFT.{"\n"}
-                 Our main goal is and always has been bringing REAL utility to our holders.{"\n"}
-                 Head on to our whitelist competition and grab your seats. 
+                 A suite of products focusing on{"\n"}
+                 network ecosystem support, awareness and adoption.{"\n"}
+               
                 
 
 
@@ -41,7 +41,7 @@ const HeroSection = () => {
                                          offset={-80}
                                          onClick={() => window.location.href = "https://gleam.io/Ltgua/wafflenft-whitelist-competition"}
                                          >
-                         Go to Whitelist {hover ? <ArrowForward /> : <ArrowRight />}
+                         Go to Social {hover ? <ArrowForward /> : <ArrowRight />}
                      </Button>
                  </HeroBtnWrapper>
              </HeroContent>

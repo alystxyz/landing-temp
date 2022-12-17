@@ -66,9 +66,9 @@ const Footer = () => {
                    <SocialMedia>
                        <SocialMediaWrap>
                            <SocialLogo to="/" onClick={toggleHome}>
-                               WaffleNFT
+                               ALYST.XYZ
                            </SocialLogo>
-                           <WebsiteRights>WaffleNFT © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                           <WebsiteRights>ALYST © {new Date().getFullYear()} All rights reserved</WebsiteRights>
                            <SocialIcons>
                                <SocialIconLink href="" target="_blank" aria-label="Instagram">
                                    <FaInstagram />
