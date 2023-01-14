@@ -45,7 +45,18 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about"
+                            <NavLinks to="panalyst"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                                        >
+                                PAN.ALYST
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="catalyst"
                                       smooth={true}
                                       duration={500}
                                       spy={true}
@@ -53,30 +64,9 @@ const Navbar = ({ toggle }) => {
                                       offset={-80}
                                       
                                        >
-                                About Us
+                                CAT.ALYST
                             </NavLinks>
                         </NavItem>
-                        <NavItem>
-                            <NavLinks to="roadmap"
-                                       smooth={true}
-                                       duration={500}
-                                       spy={true}
-                                       exact='true'
-                                       offset={-80}
-                                         >
-                                Roadmap
-                            </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="gallery"
-                                       smooth={true}
-                                       duration={500}
-                                       spy={true}
-                                       exact='true'
-                                       offset={-80}
-                            >Gallery</NavLinks>
-                        </NavItem>
-                      
                     </NavMenu>
                     <NavBtn>
                         {/* <NavBtnLink to="">Mint: TBD</NavBtnLink> */}

@@ -39,7 +39,7 @@ const HeroSection = () => {
                                          spy={true}
                                          exact='true'
                                          offset={-80}
-                                         onClick={() => window.location.href = "https://gleam.io/Ltgua/wafflenft-whitelist-competition"}
+                                         onClick={() => window.location.href = "https://twitter.com/alyst_xyz"}
                                          >
                          Follow us for updates {hover ? <ArrowForward /> : <ArrowRight />}
                      </Button>

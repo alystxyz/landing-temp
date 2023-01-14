@@ -1,4 +1,4 @@
-import { FaInstagram,  FaTwitter,  FaDiscord, FaTelegram } from 'react-icons/fa'
+import { FaInstagram,  FaTwitter,  FaGithub } from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll';
 import { FooterContainer,
          FooterWrap,
@@ -70,17 +70,11 @@ const Footer = () => {
                            </SocialLogo>
                            <WebsiteRights>ALYST © {new Date().getFullYear()} All rights reserved</WebsiteRights>
                            <SocialIcons>
-                               <SocialIconLink href="" target="_blank" aria-label="Instagram">
-                                   <FaInstagram />
+                               <SocialIconLink href="https://github.com/alystxyz" target="_blank" aria-label="Github">
+                                   <FaGithub />
                                </SocialIconLink>
-                               <SocialIconLink href="https://discord.gg/96QBSE4j59" target="_blank" aria-label="Discord">
-                                   <FaDiscord />
-                               </SocialIconLink>
-                               <SocialIconLink href="https://twitter.com/WaffleNft" target="_blank" aria-label="Twitter">
+                               <SocialIconLink href="https://twitter.com/alyst_xyz" target="_blank" aria-label="Twitter">
                                    <FaTwitter />
-                               </SocialIconLink>
-                               <SocialIconLink href="https://t.me/WaffleNFT" target="_blank" aria-label="Telegram">
-                                   <FaTelegram />
                                </SocialIconLink>
                            </SocialIcons>
                        </SocialMediaWrap>

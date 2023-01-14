@@ -1,12 +1,12 @@
 export const homeObjOne = {
-    id: 'about',
+    id: 'catalyst',
     lightBg: false,
     lightText: true,
     lightTextDesc : true,
     topLine: 'cat.alyst (Catalyst)',
-    headLine: 'Power up your campaign with our crowdfunding platform',
+    headLine: 'Power up your campaign with our crowdfunding platform (Coming Soon)',
     description: 'A crowdfunding platform where artist, organisation, projects, can create campaigns to raise funds akin to the likes of Kickstarter/GoFundMe/Indiegogo',
-    buttonLabel: 'Follow updates',
+    buttonLabel: 'Follow us for updates',
     imgStart: false,
     img: require('../../images/AlystSVG1.svg').default,
     alt: 'Car',
@@ -18,12 +18,12 @@ export const homeObjOne = {
 
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'panalyst',
     lightBg: true,
     lightText: false,
     lightTextDesc : false,
     topLine: 'pan.alyst (Panelist)',
-    headLine: 'The source of truth for CANTO ecosystem directory.',
+    headLine: 'The source of truth for the CANTO ecosystem directory.',
     description: "",
     buttonLabel: 'Learn More',
     imgStart: true,
@@ -32,7 +32,7 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
-    buttonTo: 'home'
+    buttonTo: 'https://pan.alyst.xyz'
 }
 
 export const homeObjThree = {

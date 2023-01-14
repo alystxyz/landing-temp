@@ -35,8 +35,8 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                                  <TopLine>{ topLine }</TopLine>
                                  <Heading lightText={lightText}>{ headLine }</Heading>
                                  <Subtitle darkText={darkText}>{ description }</Subtitle>
-                                 {/* <BtnWrap>
-                                     <Button onClick={() => window.location.href = buttonTo}
+                                 {<BtnWrap>
+                                     <Button onClick={() => window.location.href = buttonTo }
                                              smooth={true}
                                              duration={500}
                                              spy={true}
@@ -47,7 +47,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                                              dark2={dark2 ? 1 : 0}
 
                                      >{ buttonLabel }</Button>
-                                 </BtnWrap> */}
+                                 </BtnWrap>}
                              </TextWrapper>
                        </Column1>
                        <Column2>
