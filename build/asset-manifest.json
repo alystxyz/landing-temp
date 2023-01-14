@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.916a5a33.chunk.css",
+    "main.js": "./static/js/main.cdcf2752.chunk.js",
+    "main.js.map": "./static/js/main.cdcf2752.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7da7cafa.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7da7cafa.js.map",
+    "static/css/2.4151bd2f.chunk.css": "./static/css/2.4151bd2f.chunk.css",
+    "static/js/2.08e4a21f.chunk.js": "./static/js/2.08e4a21f.chunk.js",
+    "static/js/2.08e4a21f.chunk.js.map": "./static/js/2.08e4a21f.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.4151bd2f.chunk.css.map": "./static/css/2.4151bd2f.chunk.css.map",
+    "static/css/main.916a5a33.chunk.css.map": "./static/css/main.916a5a33.chunk.css.map",
+    "static/js/2.08e4a21f.chunk.js.LICENSE.txt": "./static/js/2.08e4a21f.chunk.js.LICENSE.txt",
+    "static/media/0x-bg.00ef7f4b.png": "./static/media/0x-bg.00ef7f4b.png",
+    "static/media/AlystSVG1.svg": "./static/media/AlystSVG1.6ef7df09.svg",
+    "static/media/cantogameoflife-bg.jpeg": "./static/media/cantogameoflife-bg.3f47a8d9.jpeg",
+    "static/media/cryptosim.svg": "./static/media/cryptosim.9096aea0.svg",
+    "static/media/logopasar.8c37eb3f.png": "./static/media/logopasar.8c37eb3f.png",
+    "static/media/offroad.svg": "./static/media/offroad.198c8835.svg",
+    "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf",
+    "static/media/waffle2.2c993e32.png": "./static/media/waffle2.2c993e32.png",
+    "static/media/waffle3.1223210d.png": "./static/media/waffle3.1223210d.png",
+    "static/media/waffleberry.4cf9fd6e.png": "./static/media/waffleberry.4cf9fd6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7da7cafa.js",
+    "static/css/2.4151bd2f.chunk.css",
+    "static/js/2.08e4a21f.chunk.js",
+    "static/css/main.916a5a33.chunk.css",
+    "static/js/main.cdcf2752.chunk.js"
+  ]
+}
